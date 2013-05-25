@@ -1,0 +1,115 @@
+body{
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.header{
+	height: 160px;
+
+}
+
+.logo_left{
+	width: 160px;
+	height: 160px;
+	float:left;
+	
+}
+
+.logo_right{
+	margin-left: 170px;
+	height:160px;
+	text-align:center;
+	
+}
+
+.logo_right h1{
+	font-size:32px;
+	color:#660099;
+	
+}
+
+
+.content{
+	margin-top: 10px;
+	height:400px;
+	background-color: white;
+		
+}
+
+.content_left{
+	display:block;
+	height:400px;
+	width:220px;
+
+	float:left;
+	
+	border-style:solid;
+	border-width:2px;
+	border-color: #0099FF ;
+	
+	-webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+	
+}
+
+.content_right{
+	margin-left:10px;
+	display:block;
+	height: 400px;
+	width:660px;
+	float:left;	
+	 
+
+}
+
+.navigationbar{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	display:block;	
+	background-color: #0099FF ;
+	width: 650px;
+	line-height:40px; /**mittelt den Text aus **/
+	
+	-webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -khtml-border-top-left-radius: 10px;
+    -khtml-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.navigationbar a{
+	
+	font-size: 18px;
+    font-weight: bold;
+    padding: 0.5em 15px;
+    
+	color: #FFFFFF;
+	text-decoration:none;
+	margin-left: 30px;
+	
+
+}
+
+
+.maincontent{
+	margin-top: 10px;
+	height: 350px;
+	border-style:solid;
+	border-width:2px;
+	border-color: #0099FF ;
+	
+	-webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+	
+	
+}
