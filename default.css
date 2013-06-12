@@ -104,15 +104,20 @@ body{
 	
 	font-size: 18px;
     font-weight: bold;
-    padding: 0.5em 15px;
+    padding: 0.5em 28px;
     
 	color: #FFFFFF;
 	text-decoration:none;
-	margin-left: 30px;
+	
 	
 
 }
 
+
+.navigationbar a:hover{
+	background-color:#660099;
+	
+}
 
 .maincontent{
 	margin-top: 10px;
@@ -127,4 +132,8 @@ body{
     border-radius: 10px;
 	
 	
+}
+
+.footer{
+	text-align: center;
 }
